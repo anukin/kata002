@@ -9,4 +9,8 @@ class Cell
 	def state
 		@state
 	end
+
+	def alive?
+		self.state == ALIVE ? true : false 
+	end
 end

@@ -8,4 +8,9 @@ describe "Cell" do
         cell = Cell.new("alive")
         expect(cell.state).to eq ALIVE
     end
+
+    it "is expected to respond to alive?" do 
+    	cell = Cell.new("alive") 
+    	expect(cell.alive?).to eq true
+    end
 end
