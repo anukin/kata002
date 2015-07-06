@@ -1,0 +1,11 @@
+This is a readme for game of life problem on day 2 bootcamp
+The process for execution of this program is by=>
+
+1.git clone the project 
+2.cd to the project folder
+3.bundle exec rake
+
+To test the project please execute
+bundle exec rspec
+
+Please make sure bundle is installed.
